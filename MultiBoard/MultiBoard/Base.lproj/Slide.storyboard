@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="z0x-Lh-H6u">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-bGw-GV-a4z" id="bGw-GV-a4z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RV7-3k-0Vj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Label 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aya-q7-wTa">
+                                <rect key="frame" x="145.5" y="333" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aya-q7-wTa" firstAttribute="centerX" secondItem="Smg-bv-Wm6" secondAttribute="centerX" id="Tui-Ip-mAf"/>
+                            <constraint firstItem="aya-q7-wTa" firstAttribute="centerY" secondItem="Smg-bv-Wm6" secondAttribute="centerY" id="lnq-08-z91"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Smg-bv-Wm6"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="eO7-XB-wKU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XtT-XQ-71C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="451"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="pWh-v7-QW9">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-QLd-3U-N9H" id="QLd-3U-N9H" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dFB-Km-BjS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Label 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6C-Jq-PrA">
+                                <rect key="frame" x="146.5" y="333" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x6C-Jq-PrA" firstAttribute="centerX" secondItem="FC9-yz-y8y" secondAttribute="centerX" id="H65-Zo-RB5"/>
+                            <constraint firstItem="x6C-Jq-PrA" firstAttribute="centerY" secondItem="FC9-yz-y8y" secondAttribute="centerY" id="dPI-bT-RFK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FC9-yz-y8y"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="9dD-66-IYJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vK0-Ni-rae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="-214"/>
+        </scene>
+    </scenes>
+</document>
